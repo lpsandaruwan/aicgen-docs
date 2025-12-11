@@ -222,6 +222,20 @@ microservices-resilience:
     - circuit-breaker
     - retry
   category: Architecture
+microservices-api-gateway:
+  path: architecture/microservices/api-gateway.md
+  architectures:
+    - microservices
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - microservices
+    - api-gateway
+    - bff
+    - routing
+  category: Architecture
 modular-monolith-structure:
   path: architecture/modular-monolith/structure.md
   architectures:
@@ -584,6 +598,19 @@ devops-practices:
     - infrastructure
     - observability
     - containers
+  category: DevOps
+devops-observability:
+  path: devops/observability.md
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - devops
+    - observability
+    - logging
+    - metrics
+    - tracing
   category: DevOps
 practices-planning:
   path: practices/planning.md
