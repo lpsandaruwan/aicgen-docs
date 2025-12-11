@@ -585,6 +585,32 @@ devops-practices:
     - observability
     - containers
   category: DevOps
+practices-planning:
+  path: practices/planning.md
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - planning
+    - phases
+    - communication
+    - requirements
+    - approval
+  category: Best Practices
+practices-documentation:
+  path: practices/documentation.md
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - documentation
+    - organization
+    - memory-lane
+    - context
+    - structure
+  category: Best Practices
 practices-code-review:
   path: practices/code-review.md
   levels:
