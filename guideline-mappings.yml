@@ -168,6 +168,170 @@ python-testing:
     - testing
     - pytest
   category: Language
+go-basics:
+  path: language/go/basics.md
+  languages:
+    - go
+  levels:
+    - basic
+    - standard
+    - expert
+    - full
+  tags:
+    - go
+    - golang
+    - fundamentals
+  category: Language
+rust-basics:
+  path: language/rust/basics.md
+  languages:
+    - rust
+  levels:
+    - basic
+    - standard
+    - expert
+    - full
+  tags:
+    - rust
+    - ownership
+    - fundamentals
+  category: Language
+java-basics:
+  path: language/java/basics.md
+  languages:
+    - java
+  levels:
+    - basic
+    - standard
+    - expert
+    - full
+  tags:
+    - java
+    - jvm
+    - fundamentals
+  category: Language
+csharp-basics:
+  path: language/csharp/basics.md
+  languages:
+    - csharp
+  levels:
+    - basic
+    - standard
+    - expert
+    - full
+  tags:
+    - csharp
+    - dotnet
+    - fundamentals
+  category: Language
+ruby-basics:
+  path: language/ruby/basics.md
+  languages:
+    - ruby
+  levels:
+    - basic
+    - standard
+    - expert
+    - full
+  tags:
+    - ruby
+    - rails
+    - fundamentals
+  category: Language
+javascript-basics:
+  path: language/javascript/basics.md
+  languages:
+    - javascript
+  levels:
+    - basic
+    - standard
+    - expert
+    - full
+  tags:
+    - javascript
+    - es6
+    - fundamentals
+  category: Language
+go-testing:
+  path: language/go/testing.md
+  languages:
+    - go
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - go
+    - testing
+    - table-driven
+  category: Language
+rust-testing:
+  path: language/rust/testing.md
+  languages:
+    - rust
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - rust
+    - testing
+    - cargo-test
+  category: Language
+java-testing:
+  path: language/java/testing.md
+  languages:
+    - java
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - java
+    - testing
+    - junit
+    - mockito
+  category: Language
+csharp-testing:
+  path: language/csharp/testing.md
+  languages:
+    - csharp
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - csharp
+    - testing
+    - xunit
+    - moq
+  category: Language
+ruby-testing:
+  path: language/ruby/testing.md
+  languages:
+    - ruby
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - ruby
+    - testing
+    - rspec
+  category: Language
+javascript-testing:
+  path: language/javascript/testing.md
+  languages:
+    - javascript
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - javascript
+    - testing
+    - jest
+  category: Language
 microservices-boundaries:
   path: architecture/microservices/boundaries.md
   architectures:
@@ -376,6 +540,8 @@ database-schema:
     - standard
     - expert
     - full
+  datasources:
+    - sql
   tags:
     - database
     - schema
@@ -387,6 +553,8 @@ database-indexing:
   levels:
     - expert
     - full
+  datasources:
+    - sql
   tags:
     - database
     - indexing
@@ -523,6 +691,20 @@ event-driven-patterns:
     - saga
     - event-driven
   category: Architecture
+event-driven-messaging:
+  path: architecture/event-driven/messaging.md
+  architectures:
+    - event-driven
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - messaging
+    - queues
+    - outbox
+    - delivery
+  category: Architecture
 layered-architecture:
   path: architecture/layered/layers.md
   architectures:
@@ -550,6 +732,34 @@ serverless-patterns:
     - faas
     - lambda
     - cold-start
+  category: Architecture
+serverless-best-practices:
+  path: architecture/serverless/best-practices.md
+  architectures:
+    - serverless
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - serverless
+    - optimization
+    - security
+    - monitoring
+  category: Architecture
+hexagonal-architecture:
+  path: architecture/hexagonal/ports-adapters.md
+  architectures:
+    - hexagonal
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - hexagonal
+    - ports-adapters
+    - dependency-inversion
+    - clean-code
   category: Architecture
 gui-architecture:
   path: architecture/gui/patterns.md
@@ -703,11 +913,28 @@ database-design-patterns:
     - standard
     - expert
     - full
+  datasources:
+    - sql
   tags:
     - database
     - normalization
     - denormalization
     - soft-deletes
+  category: Database
+database-nosql:
+  path: database/nosql.md
+  levels:
+    - standard
+    - expert
+    - full
+  datasources:
+    - nosql
+  tags:
+    - database
+    - nosql
+    - mongodb
+    - dynamodb
+    - redis
   category: Database
 patterns-base:
   path: patterns/base-patterns.md
