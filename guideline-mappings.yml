@@ -461,6 +461,19 @@ testing-integration:
     - database
     - api
   category: Testing
+testing-basics:
+  path: testing/basics.md
+  levels:
+    - basic
+    - standard
+    - expert
+    - full
+  tags:
+    - testing
+    - unit-tests
+    - assertions
+    - fundamentals
+  category: Testing
 security-injection:
   path: security/injection.md
   levels:
@@ -511,6 +524,20 @@ security-headers:
     - csp
     - https
   category: Security
+performance-basics:
+  path: performance/basics.md
+  levels:
+    - basic
+    - standard
+    - expert
+    - full
+  tags:
+    - performance
+    - optimization
+    - data-structures
+    - n-plus-one
+    - fundamentals
+  category: Performance
 performance-caching:
   path: performance/caching.md
   levels:
@@ -534,6 +561,20 @@ performance-async:
     - parallel
     - batching
   category: Performance
+database-basics:
+  path: database/basics.md
+  levels:
+    - basic
+    - standard
+    - expert
+    - full
+  tags:
+    - database
+    - crud
+    - sql
+    - queries
+    - fundamentals
+  category: Database
 database-schema:
   path: database/schema.md
   levels:
@@ -561,6 +602,20 @@ database-indexing:
     - performance
     - queries
   category: Database
+api-basics:
+  path: api/basics.md
+  levels:
+    - basic
+    - standard
+    - expert
+    - full
+  tags:
+    - api
+    - http
+    - rest
+    - status-codes
+    - fundamentals
+  category: API Design
 api-rest:
   path: api/rest.md
   levels:
@@ -620,6 +675,19 @@ error-handling-strategy:
     - exceptions
     - resilience
     - retry
+  category: Error Handling
+error-handling-basics:
+  path: error-handling/basics.md
+  levels:
+    - basic
+    - standard
+    - expert
+    - full
+  tags:
+    - errors
+    - exceptions
+    - try-catch
+    - fundamentals
   category: Error Handling
 solid-principles:
   path: architecture/solid/principles.md
