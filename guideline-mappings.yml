@@ -332,6 +332,61 @@ javascript-testing:
     - testing
     - jest
   category: Language
+dart-basics:
+  path: language/dart/basics.md
+  languages:
+    - dart
+  levels:
+    - basic
+    - standard
+    - expert
+    - full
+  tags:
+    - dart
+    - fundamentals
+    - null-safety
+  category: Language
+dart-async:
+  path: language/dart/async.md
+  languages:
+    - dart
+  levels:
+    - basic
+    - standard
+    - expert
+    - full
+  tags:
+    - dart
+    - async
+    - futures
+    - streams
+  category: Language
+dart-error-handling:
+  path: language/dart/error-handling.md
+  languages:
+    - dart
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - dart
+    - errors
+    - exceptions
+  category: Language
+dart-testing:
+  path: language/dart/testing.md
+  languages:
+    - dart
+  levels:
+    - standard
+    - expert
+    - full
+  tags:
+    - dart
+    - testing
+    - flutter
+  category: Language
 microservices-boundaries:
   path: architecture/microservices/boundaries.md
   architectures:
